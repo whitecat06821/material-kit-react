@@ -1,5 +1,12 @@
 # Changelog
 
+## v4.1.0
+
+###### Jun 10, 2025
+
+- Migrate to MUI Material v7
+- Update dependencies
+
 ## v4.0.0
 
 ###### Mar 8, 2024
