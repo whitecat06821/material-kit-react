@@ -1,6 +1,6 @@
 import * as React from 'react';
 import type { Metadata } from 'next';
-import Grid from '@mui/material/Unstable_Grid2';
+import Grid from '@mui/material/Grid';
 import dayjs from 'dayjs';
 
 import { config } from '@/config';
@@ -18,19 +18,48 @@ export const metadata = { title: `Overview | Dashboard | ${config.site.name}` } 
 export default function Page(): React.JSX.Element {
   return (
     <Grid container spacing={3}>
-      <Grid lg={3} sm={6} xs={12}>
+      <Grid
+        size={{
+          lg: 3,
+          sm: 6,
+          xs: 12,
+        }}
+      >
         <Budget diff={12} trend="up" sx={{ height: '100%' }} value="$24k" />
       </Grid>
-      <Grid lg={3} sm={6} xs={12}>
+      <Grid
+        size={{
+          lg: 3,
+          sm: 6,
+          xs: 12,
+        }}
+      >
         <TotalCustomers diff={16} trend="down" sx={{ height: '100%' }} value="1.6k" />
       </Grid>
-      <Grid lg={3} sm={6} xs={12}>
+      <Grid
+        size={{
+          lg: 3,
+          sm: 6,
+          xs: 12,
+        }}
+      >
         <TasksProgress sx={{ height: '100%' }} value={75.5} />
       </Grid>
-      <Grid lg={3} sm={6} xs={12}>
+      <Grid
+        size={{
+          lg: 3,
+          sm: 6,
+          xs: 12,
+        }}
+      >
         <TotalProfit sx={{ height: '100%' }} value="$15k" />
       </Grid>
-      <Grid lg={8} xs={12}>
+      <Grid
+        size={{
+          lg: 8,
+          xs: 12,
+        }}
+      >
         <Sales
           chartSeries={[
             { name: 'This year', data: [18, 16, 5, 8, 3, 14, 14, 16, 17, 19, 18, 20] },
@@ -39,10 +68,22 @@ export default function Page(): React.JSX.Element {
           sx={{ height: '100%' }}
         />
       </Grid>
-      <Grid lg={4} md={6} xs={12}>
+      <Grid
+        size={{
+          lg: 4,
+          md: 6,
+          xs: 12,
+        }}
+      >
         <Traffic chartSeries={[63, 15, 22]} labels={['Desktop', 'Tablet', 'Phone']} sx={{ height: '100%' }} />
       </Grid>
-      <Grid lg={4} md={6} xs={12}>
+      <Grid
+        size={{
+          lg: 4,
+          md: 6,
+          xs: 12,
+        }}
+      >
         <LatestProducts
           products={[
             {
@@ -79,7 +120,13 @@ export default function Page(): React.JSX.Element {
           sx={{ height: '100%' }}
         />
       </Grid>
-      <Grid lg={8} md={12} xs={12}>
+      <Grid
+        size={{
+          lg: 8,
+          md: 12,
+          xs: 12,
+        }}
+      >
         <LatestOrders
           orders={[
             {

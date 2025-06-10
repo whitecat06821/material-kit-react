@@ -5,7 +5,7 @@ import CardContent from '@mui/material/CardContent';
 import Stack from '@mui/material/Stack';
 import type { SxProps } from '@mui/material/styles';
 import Typography from '@mui/material/Typography';
-import { Receipt as ReceiptIcon } from '@phosphor-icons/react/dist/ssr/Receipt';
+import { ReceiptIcon } from '@phosphor-icons/react/dist/ssr/Receipt';
 
 export interface TotalProfitProps {
   sx?: SxProps;

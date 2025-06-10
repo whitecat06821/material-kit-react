@@ -6,7 +6,7 @@ import LinearProgress from '@mui/material/LinearProgress';
 import Stack from '@mui/material/Stack';
 import type { SxProps } from '@mui/material/styles';
 import Typography from '@mui/material/Typography';
-import { ListBullets as ListBulletsIcon } from '@phosphor-icons/react/dist/ssr/ListBullets';
+import { ListBulletsIcon } from '@phosphor-icons/react/dist/ssr/ListBullets';
 
 export interface TasksProgressProps {
   sx?: SxProps;

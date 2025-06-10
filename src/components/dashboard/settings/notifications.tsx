@@ -10,9 +10,9 @@ import Checkbox from '@mui/material/Checkbox';
 import Divider from '@mui/material/Divider';
 import FormControlLabel from '@mui/material/FormControlLabel';
 import FormGroup from '@mui/material/FormGroup';
+import Grid from '@mui/material/Grid';
 import Stack from '@mui/material/Stack';
 import Typography from '@mui/material/Typography';
-import Grid from '@mui/material/Unstable_Grid2';
 
 export function Notifications(): React.JSX.Element {
   return (
@@ -26,7 +26,13 @@ export function Notifications(): React.JSX.Element {
         <Divider />
         <CardContent>
           <Grid container spacing={6} wrap="wrap">
-            <Grid md={4} sm={6} xs={12}>
+            <Grid
+              size={{
+                md: 4,
+                sm: 6,
+                xs: 12,
+              }}
+            >
               <Stack spacing={1}>
                 <Typography variant="h6">Email</Typography>
                 <FormGroup>
@@ -35,7 +41,13 @@ export function Notifications(): React.JSX.Element {
                 </FormGroup>
               </Stack>
             </Grid>
-            <Grid md={4} sm={6} xs={12}>
+            <Grid
+              size={{
+                md: 4,
+                sm: 6,
+                xs: 12,
+              }}
+            >
               <Stack spacing={1}>
                 <Typography variant="h6">Phone</Typography>
                 <FormGroup>

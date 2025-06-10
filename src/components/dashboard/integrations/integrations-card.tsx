@@ -6,8 +6,8 @@ import CardContent from '@mui/material/CardContent';
 import Divider from '@mui/material/Divider';
 import Stack from '@mui/material/Stack';
 import Typography from '@mui/material/Typography';
-import { Clock as ClockIcon } from '@phosphor-icons/react/dist/ssr/Clock';
-import { Download as DownloadIcon } from '@phosphor-icons/react/dist/ssr/Download';
+import { ClockIcon } from '@phosphor-icons/react/dist/ssr/Clock';
+import { DownloadIcon } from '@phosphor-icons/react/dist/ssr/Download';
 import dayjs from 'dayjs';
 
 export interface Integration {

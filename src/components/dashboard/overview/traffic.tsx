@@ -9,9 +9,9 @@ import { useTheme } from '@mui/material/styles';
 import type { SxProps } from '@mui/material/styles';
 import Typography from '@mui/material/Typography';
 import type { Icon } from '@phosphor-icons/react/dist/lib/types';
-import { Desktop as DesktopIcon } from '@phosphor-icons/react/dist/ssr/Desktop';
-import { DeviceTablet as DeviceTabletIcon } from '@phosphor-icons/react/dist/ssr/DeviceTablet';
-import { Phone as PhoneIcon } from '@phosphor-icons/react/dist/ssr/Phone';
+import { DesktopIcon } from '@phosphor-icons/react/dist/ssr/Desktop';
+import { DeviceTabletIcon } from '@phosphor-icons/react/dist/ssr/DeviceTablet';
+import { PhoneIcon } from '@phosphor-icons/react/dist/ssr/Phone';
 import type { ApexOptions } from 'apexcharts';
 
 import { Chart } from '@/components/core/chart';

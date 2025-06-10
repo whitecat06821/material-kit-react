@@ -2,13 +2,13 @@ import * as React from 'react';
 import type { Metadata } from 'next';
 import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
+import Grid from '@mui/material/Grid';
 import Pagination from '@mui/material/Pagination';
 import Stack from '@mui/material/Stack';
 import Typography from '@mui/material/Typography';
-import Grid from '@mui/material/Unstable_Grid2';
-import { Download as DownloadIcon } from '@phosphor-icons/react/dist/ssr/Download';
-import { Plus as PlusIcon } from '@phosphor-icons/react/dist/ssr/Plus';
-import { Upload as UploadIcon } from '@phosphor-icons/react/dist/ssr/Upload';
+import { DownloadIcon } from '@phosphor-icons/react/dist/ssr/Download';
+import { PlusIcon } from '@phosphor-icons/react/dist/ssr/Plus';
+import { UploadIcon } from '@phosphor-icons/react/dist/ssr/Upload';
 import dayjs from 'dayjs';
 
 import { config } from '@/config';
@@ -93,7 +93,14 @@ export default function Page(): React.JSX.Element {
       <CompaniesFilters />
       <Grid container spacing={3}>
         {integrations.map((integration) => (
-          <Grid key={integration.id} lg={4} md={6} xs={12}>
+          <Grid
+            key={integration.id}
+            size={{
+              lg: 4,
+              md: 6,
+              xs: 12,
+            }}
+          >
             <IntegrationCard integration={integration} />
           </Grid>
         ))}

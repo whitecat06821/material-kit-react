@@ -1,6 +1,7 @@
-import type { CssVarsTheme } from '@mui/material/styles';
-import type { Theme as BaseTheme } from '@mui/material/styles/createTheme';
+export type { Theme } from "@mui/material/styles";
 
-export type Theme = Omit<BaseTheme, 'palette'> & CssVarsTheme;
+export type Direction = "ltr" | "rtl";
 
-export type ColorScheme = 'dark' | 'light';
+export type ColorScheme = "dark" | "light";
+
+export type Mode = "dark" | "light" | "system";
