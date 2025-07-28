@@ -2,7 +2,7 @@
 
 ![license](https://img.shields.io/badge/license-MIT-blue.svg)
 
-[![Devias Kit - React](https://github.com/devias-io/material-kit-react/blob/main/public/assets/thumbnail.png)](https://material-kit-react.devias.io/)
+[![Devias Kit - React](https://github.com/whitecat06821/material-kit-react/blob/main/public/assets/thumbnail.png)](https://material-kit-react.devias.io/)
 
 > Free React Admin Dashboard made with [MUI's](https://mui.com) components, [React](https://reactjs.org) and of course [Next.js](https://github.com/vercel/next.js) to boost your app development process!
 
@@ -37,7 +37,7 @@ to save more time and design efforts :)
 
 ## Quick start
 
-- Clone the repo: `git clone https://github.com/devias-io/material-kit-react.git`
+- Clone the repo: `git clone https://github.com/whitecat06821/material-kit-react.git`
 - Make sure your Node.js and npm versions are up to date
 - Install dependencies: `npm install` or `yarn`
 - Start the server: `npm run dev` or `yarn dev`
@@ -79,11 +79,11 @@ Within the download you'll find the following directories and files:
 
 ## Reporting Issues:
 
-- [Github Issues Page](https://github.com/devias-io/material-kit-react/issues)
+- [Github Issues Page](https://github.com/whitecat06821/material-kit-react/issues)
 
 ## License
 
-- Licensed under [MIT](https://github.com/devias-io/material-kit-react/blob/main/LICENSE.md)
+- Licensed under [MIT](https://github.com/whitecat06821/material-kit-react/blob/main/LICENSE.md)
 
 ## Contact Us
 
